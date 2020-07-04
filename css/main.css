@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/homeJapan.jpg");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#home header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#home header div a {
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+}
+
+#home header div + div a {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#home header div + div a:hover {
+  text-decoration: underline;
+}
+
+#home main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#home main h1,
+#home main p {
+  color: white;
+}
+
+#home main h1 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+#home main p {
+  font-size: 18px;
+}
+
+#home footer {
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+#home footer form input {
+  width: 200px;
+  height: 30px;
+  font-size: 10px;
+  background: none;
+  border-bottom: solid 2px white;
+  color: white;
+}
+
+#home footer form input + input {
+  margin: 0 20px;
+}
+
+#home footer form button {
+  width: 100px;
+  height: 40px;
+  background-color: #1B7DFF;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+#body {
+  position: relative;
+  top: -150px;
+  max-width: 1000px;
+  height: 1200px;
+  background: white;
+  margin: 0 auto;
+}
+
+#body .title {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+}
+
+#body .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+#body .cards .card {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+#body .cards .card h4 {
+  margin-bottom: 15px;
+}
+
+#body .cards .card p {
+  margin-bottom: 50px;
+}
+
+#body .cards .card a {
+  color: #1B7DFF;
+}
+
+#body .cards .card a span {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=main.css.map */
