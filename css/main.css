@@ -102,12 +102,11 @@ input {
   position: relative;
   top: -150px;
   max-width: 1000px;
-  height: 1200px;
   background: white;
   margin: 0 auto;
 }
 
-#body .title {
+#body .body1 .title {
   width: 100%;
   height: 150px;
   display: -webkit-box;
@@ -119,33 +118,70 @@ input {
   margin-left: 100px;
 }
 
-#body .cards {
+#body .body1 .cards {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
 }
 
-#body .cards .card {
+#body .body1 .cards .card {
   width: 250px;
   height: 250px;
   margin: 0 auto;
   padding: 30px;
 }
 
-#body .cards .card h4 {
+#body .body1 .cards .card h4 {
   margin-bottom: 15px;
 }
 
-#body .cards .card p {
+#body .body1 .cards .card p {
   margin-bottom: 50px;
 }
 
-#body .cards .card a {
+#body .body1 .cards .card a {
   color: #1B7DFF;
 }
 
-#body .cards .card a span {
+#body .body1 .cards .card a span {
   margin-left: 10px;
+}
+
+#body .body2 {
+  margin-top: 50px;
+}
+
+#body .body2 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 30px;
+}
+
+#body .body2 .title a {
+  color: #1B7DFF;
+}
+
+#body .body2 .title a img {
+  margin-left: 10px;
+}
+
+#body .body2 .images {
+  padding: 0 30px;
+  margin-top: 10px;
+}
+
+#body .body2 .images div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#body .body2 .images div img {
+  margin: 3px;
 }
 /*# sourceMappingURL=main.css.map */
