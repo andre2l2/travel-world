@@ -1,0 +1,44 @@
+#footer {
+    background-color: $footerColor;
+
+    .video  {
+        figure img {
+            height: 500px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        height: 500px;
+
+        div {
+
+            h2 {
+                font-size: 40px;
+                color: white;
+            }
+        }
+
+        .info-Jobs {
+            display: flex;
+    
+
+            div {
+                display: flex;
+                flex-direction: column;
+                margin: 0 20px;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+
+    }
+
+}
