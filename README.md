@@ -1,3 +1,3 @@
-# Welcome Travel-World website 
+# Welcome to Travel-World website 
 
 ![gif](./images/demo.gif)
