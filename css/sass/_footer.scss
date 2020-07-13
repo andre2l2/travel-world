@@ -35,6 +35,11 @@
 
                 a {
                     color: white;
+                    padding: 5px;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }

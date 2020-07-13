@@ -25,6 +25,9 @@
   #body div.body2 div.informations div.informations div img {
     width: 300px;
   }
+  #body div.body2 div.title a {
+    display: none;
+  }
 }
 
 @media (max-width: 960px) {
@@ -110,6 +113,9 @@
 }
 
 @media (max-width: 600px) {
+  #body div.body2 div.title a img {
+    display: none;
+  }
   #footer div.info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -168,7 +174,7 @@ input {
 
 #home header div + div a {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: normal;
 }
 
 #home header div + div a:hover {
@@ -219,6 +225,12 @@ input {
   cursor: pointer;
   color: white;
   font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#home footer form button:hover {
+  background-color: #1268da;
 }
 
 #body {
@@ -446,5 +458,10 @@ input {
 
 #footer .info .info-Jobs div a {
   color: white;
+  padding: 5px;
+}
+
+#footer .info .info-Jobs div a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */

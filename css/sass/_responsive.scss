@@ -31,6 +31,9 @@
                     }
                 }
             }
+            div.title a {
+                display: none;
+            }
         }
     }
 }
@@ -122,8 +125,13 @@
 }
 
 @media (max-width: 600px) {
-    #footer {
+    #body {
+        div.body2 div.title a img{
+            display: none;
+        }
+    }
 
+    #footer {
         div.info {
             display: flex;
             flex-direction: column;

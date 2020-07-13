@@ -20,7 +20,7 @@
 
         div + div a {
             font-size: 18px;
-            font-weight: 300;
+            font-weight: normal;
 
             &:hover {
                 text-decoration: underline;
@@ -71,6 +71,11 @@
             cursor: pointer;
             color: white;
             font-size: 16px;
+            transition: 0.5s;
+
+            &:hover {
+                background-color: #1268da;
+            }
         }
     }
 }
